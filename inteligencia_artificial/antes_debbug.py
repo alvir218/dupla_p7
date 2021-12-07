@@ -83,13 +83,11 @@ class CamadaExposta:
         self.valorEsperado=valorEsperado
 
         #calculando xi * wi
-        ###for iteracao in range(len(camadasOcultas)):
-        for iteracao in range(len(pesosW)):
+        for iteracao in range(len(camadasOcultas)):
             self.xiVezesWi.append(camadasOcultas[iteracao].resultadoAtivacao * pesosW[iteracao])
     
         #calculando somatorio para funcao de ativacao
-        ###for iteracao in range(len(camadasOcultas)):
-        for iteracao in range(len(pesosW)):
+        for iteracao in range(len(camadasOcultas)):
             self.somatorioDeXiVezesWi = self.somatorioDeXiVezesWi + self.xiVezesWi[iteracao]
 
         if self.somatorioDeXiVezesWi >= 0:

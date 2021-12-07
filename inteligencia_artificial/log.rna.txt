@@ -1,0 +1,34 @@
+fazer o recalculo de pesos
+continuar os metodos da classe recalculo
+
+#todo
+    #falta gerar as camadas ocultas
+    #a classe esta pronta, mas nao usada
+
+ #todo
+    #tem que ver onde exatamente ir atribuindo os objetos
+    #def __init__(self, pesosW, camadasOcultas, valorEsperado, valorEsperadoNegativo, valorEsperadoPositivo):
+
+
+para imagens positivas e negativas
+uma ilustracao 2d
+uma ilustracao 3d
+uma ilustracao real
+
+para avaliacoes
+uma ilustracao 2d negativa
+uma ilustracao 2d positiva
+
+uma ilustracao 3d negativa
+uma ilustracao 3d positiva
+
+uma ilustracao real negativa
+uma ilustracao real positiva
+
+buscar fotos semelhantes de cada categoria so pra praticar
+
+
+    #todo
+    #def __init__(self, pesosW, camadasOcultas, valorEsperado, valorEsperadoNegativo, valorEsperadoPositivo):
+    #vai ser tentado iniciar o valor esperado d com 0
+
